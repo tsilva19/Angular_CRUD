@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row box-cadastro">
+    <div class="col-12">
+    <h3 class="text-center">Você está a um passo de criar sua conta Training Banking</h3>
+    <form class="mt-5">
+    <div class="form-group">
+    <input type="text" class="form-control cadastro" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome"  #nome>
+    </div>
+    <div class="form-group">
+    <input type="number" class="form-control cadastro" id="exampleInputPassword1" placeholder="CPF" #cpf>
+    </div>
+    <div class="form-group">
+    <input type="email" class="form-control cadastro" id="exampleInputPassword1" placeholder="E-mail"  #email>
+    </div>
+    <div class="form-group">
+    <input type="tel" class="form-control cadastro" id="exampleInputPassword1" placeholder="Telefone"  #telefone>
+    </div>
+    <p>
+    <button (click)="enviar(nome.value, cpf.value, email.value, telefone.value)" class="btn btn-cadastro btn-lg">Cadastrar</button>
+    <button (click)="gotoHome()" class="btn btn-cadastro btn-lg">Voltar</button>
+</p>
+    </form>
+    </div>
+    </div>
+    </div>

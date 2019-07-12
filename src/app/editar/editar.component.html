@@ -1,0 +1,26 @@
+
+<div class="container">
+    <div class="row box-cadastro">
+    <div class="col-12">
+    <h3 class="text-center">Você está a um passo de criar sua conta Training Banking</h3>
+    <form class="mt-5" [formGroup]="angForm">
+    <div class="form-group">
+    <input type="text" class="form-control"  formControlName="nome" placeholder="Nome" #nome [(ngModel)]="business.nome " >
+    </div>
+    <div class="form-group">
+    <input type="number" class="form-control"  formControlName="cpf" placeholder="CPF"  #cpf [(ngModel)]="business.cpf">
+    </div>
+    <div class="form-group">
+    <input type="email" class="form-control"  formControlName="email" placeholder="E-mail" #email [(ngModel)]="business.email" >
+    </div>
+    <div class="form-group">
+    <input type="tel" class="form-control"  formControlName="telefone" placeholder="Telefone" #telefone [(ngModel)]="business.telefone" >
+    </div>
+    <p>
+    <button (click)="atualizar(nome.value, cpf.value, email.value, telefone.value)" class="btn btn-cadastro btn-lg">Atualizar</button>
+    <button (click)="gotoHome()" class="btn btn-cadastro btn-lg">Voltar</button>
+</p>
+    </form>
+    </div>
+    </div>
+    </div>

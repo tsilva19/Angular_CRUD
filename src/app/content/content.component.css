@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Poppins');
+.wrapper-content {
+        width: 100vw;
+        height: 70vh;
+        z-index: -9999;
+        top: -60px;
+}
+.box-tile {
+    width: 40vw;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    padding: 10px;
+}
+.wrapper-content h1 {
+    font-size: 60pt;
+    color:  chocolate;
+    text-shadow: 2px 2px #333;
+    font-family: 'Crete Round', serif !important;
+}
+.tag {
+    font-size: 2-pt;
+    color: chocolate;
+    font-weight: bold;
+}
+.bg_img{
+    right: 0;
+    bottom: 0;
+    min-width: 1000px;
+    min-height: 100%;
+    width: 50px;
+    height: auto;
+   
+    z-index: -900;
+    background: url('https://github.com/daniloagostinho/traning-book/blob/master/src/assets/images/bg_banking.png?raw=true') no-repeat;
+    background-size: 100% auto;
+}
+
+.btn-home-cadastro-clientes {
+    position: relative !important;
+    top: -35px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    width: 40%;
+    background: #000;
+    color: #fff;
+    border: 2px solid;
+    }
